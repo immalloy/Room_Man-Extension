@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Room_man Extension",
+  "version": "1.0.0",
+  "description": "Room_man in a 1 in 50 chance :)",
+  "permissions": ["tabs", "webNavigation"],
+  "background": {
+    "service_worker": "background.js",
+    "scripts": ["background.js"]
+  },
+  "browser_specific_settings": {
+    "gecko": { "id": "room-man@example.local", "strict_min_version": "121.0" }
+  }
+}
